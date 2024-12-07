@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+  margin: 0;
+  font-family: 'Gloria Hallelujah', 'Shadows Into Light', cursive;
+}
+
+.calendar {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.month {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  padding: 10px; 
+  border-radius: 10px 10px 0px 0px;
+}
+
+.details {
+  margin-top: 10px;
+}
+
+.details div {
+  margin: 5px 0;
+}
+
+.day {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.grey_font{
+  color: grey;
+  padding: 10px;
+}
